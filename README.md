@@ -1,0 +1,2 @@
+# StickerSmashApp
+projeto 
