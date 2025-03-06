@@ -9,3 +9,5 @@ npm run reset-project
 
 npx expo start --web
 npx expo start --localhost --android
+
+npx expo install expo-image
