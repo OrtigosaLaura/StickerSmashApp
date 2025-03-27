@@ -3,7 +3,7 @@ import { View, StyleSheet } from "react-native";
 import ImageViewer from "@/components/ImageViewer";
 import Button from "@/components/Button";
 import * as ImagePicker from 'expo-image-picker';
-import IconButton from "@/components/iconButton";
+import IconButton from "@/components/IconButton";
 import CircleButton from "@/components/CircleButton";
 
 const PlaceholderImage = require('@/assets/images/background-image.png')
@@ -47,7 +47,7 @@ export default function Index() {
        {showAppOptions ? (
         <View style={styles.optionsContainer}>
           <View style={styles.optionsRow}>
-            <IconButton icon="refresh" label="Resetar" onPress={onReset}/>
+            <IconButton icon="refresh" label="Resetar" onPress={onReset} />
               <CircleButton onPress={onAddSticker} />
               <IconButton icon='save-alt' label="Salvar" onPress={onSaveImageAsync} />
             </View>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#25292e',
-    alignItems: "center"
+    alignItems: "center",
   },
 
 imageContainer:{
@@ -83,5 +83,14 @@ imageContainer:{
 footerContainer: {
   flex: 1 / 3,
   alignItems:'center',
+},
+
+optionsContainer: {
+  position: 'absolute',
+  bottom:80,
+},
+optionsRow: {
+  alignItems: 'center',
+  flexDirection: 'row',
 }
 })
