@@ -11,3 +11,5 @@ npx expo start --web
 npx expo start --localhost --android
 
 npx expo install expo-image
+
+npm install dom-to-image
