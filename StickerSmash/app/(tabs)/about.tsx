@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style= {styles.text}>Sobre</Text>
+      <Text style= {styles.text}>Saiba mais</Text>
     </View>
   )
 }

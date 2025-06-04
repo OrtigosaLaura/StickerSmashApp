@@ -15,8 +15,8 @@ export default function Button({ label, theme, onPress }: Props) {
     ]}>
         <Pressable style={[ styles.button, {backgroundColor: '#fff'}]} 
         onPress={onPress}>
-            <FontAwesome name='picture-o' size={18} color="#25292e" style={{ paddingRight: 8}} />
-            <Text style={[styles.buttonLabel, {color: '#25292e'}]}>{label}</Text>
+            <FontAwesome name='picture-o' size={18} color="#f465ad" style={{ paddingRight: 8}} />
+            <Text style={[styles.buttonLabel, {color: '#f465ad'}]}>{label}</Text>
         </Pressable>
     </View>
   ) 
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
       flexDirection:'row',
     },
     buttonLabel: {
-      color: '#fff',
+      color: '#f465ad',
       fontSize: 16,
     },
 });

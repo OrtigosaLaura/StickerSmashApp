@@ -84,7 +84,7 @@ export default function Index() {
     if(!result.canceled) {
       setSelectedImage(result.assets[0].uri);
     } else {
-      alert("Você não escolhe nenhuma imagem!!!");
+      alert("Você não escolheu nenhuma imagem, pare de ser burro!!!");
     }
    }
 
@@ -109,7 +109,7 @@ export default function Index() {
 
        <View style={styles.footerContainer}>
         <Button 
-        label="Escolher uma Foto" 
+        label="Escolher uma Imagem" 
         theme= "primary" 
         onPress={pickImageAsync}
         />
@@ -128,7 +128,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#25292e',
+    backgroundColor: '#ffd6eb',
     alignItems: "center",
   },
 
