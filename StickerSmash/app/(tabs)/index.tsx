@@ -13,7 +13,7 @@ import EmojiSticker from "@/components/EmojiSticker";
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import * as MediaLibrary from 'expo-media-library';
 import domtoimage from 'dom-to-image';
-const PlaceholderImage = require('@/assets/images/background-image.png')
+const PlaceholderImage = require('@/assets/images/background-image.')
 
 export default function Index() {
   const [status, requestPermission] = MediaLibrary.usePermissions();
